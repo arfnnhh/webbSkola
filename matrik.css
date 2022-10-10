@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d0e1f9;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+}
+
+
+/* Navbar */
+.logo {
+  float: left;
+}
+
+ul {
+    list-style: none;
+    margin: 16px 32px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 6px;
+}
+
+li a:hover {
+    background-color: #a4c8fc;
+    border-radius: 50px;
+    transition: 1s;
+}
+/* Navbar END */
+
+
+/* Content 1 */
+.content1 {
+    display: grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+    padding-left: 120px;
+}
+
+.content1 {
+    background-image: url(matrik.jpg.png)
+}
+
+.text1 {
+    margin: 0 64px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.text1 p {
+    color: white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#tag {
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+
+mark {
+    background: #227f9e;
+    color: white;
+    padding: 5px 5px;
+}
+
+.isiTombol mark {
+    background-color: #227f9e;
+    font-size: 13px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 110px;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.isiTombol mark:hover {
+    background-color: #245768;
+    transition: 1s;
+}
+/* Content 1 END */
+
+/* Content 2 */
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 380px;
+    background-color: white;
+    padding: 0 12%;
+    margin-left: -763px;
+}
+
+.content2 a {
+    text-decoration: none;
+    color: #3a3a3a ;
+}
+/* Content 2 END */
+
+/* Footer */
+.footer-main {
+    background-color: #004258;
+    padding: 24px 60px;
+    color: white;
+    padding-bottom: 120px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+}
+
+.footer-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-3 a:hover {
+    color: #227f9e;
+    transition: 0.3s;
+}
+/* Footer END */
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #02688a;
+    border-radius: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 70%;
+    transition:1s;
+}
+/* Scroll Bar END */
